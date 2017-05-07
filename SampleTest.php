@@ -1,6 +1,6 @@
 <?php
 require_once('./Sample.php');
-abstract class SampleTest extends \PHPUnit\Framework\TestCase
+class SampleTest extends \PHPUnit\Framework\TestCase
 {
     public function testハローワールド()
     {
